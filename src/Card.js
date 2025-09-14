@@ -1,3 +1,4 @@
+// Card.js
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Nav from "./Nav";
@@ -12,6 +13,11 @@ function Card() {
     });
   }, []);
 
+  // Scroll to top smoothly
+  const handleBuyClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="card-page">
       <Nav />
@@ -22,7 +28,7 @@ function Card() {
               className="col-lg-3 col-md-4 col-sm-6 mb-4"
               key={product.id}
             >
-              <div className="card h-100 shadow-sm">
+              <div className="card h-100 shadow-sm product-card">
                 <img
                   src={product.image}
                   className="card-img-top"
@@ -31,12 +37,15 @@ function Card() {
                 <div className="card-body d-flex flex-column">
                   <h6 className="card-title">{product.title}</h6>
                   <p className="card-text">Category: {product.category}</p>
-                  <p>Price: ${product.price}</p>
-                  <p>In stock: {product.rating.count}</p>
+                  <p className="price">Price: ${product.price}</p>
+                  <p className="stock">In stock: {product.rating.count}</p>
                   <div className="mt-auto">
-                    <a href="#" className="btn btn-primary w-100">
+                    <button
+                      className="btn-buy w-100"
+                      onClick={handleBuyClick}
+                    >
                       BUY
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>

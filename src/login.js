@@ -11,7 +11,7 @@ function Login() {
 
   function handleLogin() {
     if (!username || !password) {
-      alert("Please enter both username and password");
+      alert("Please enter any username and password to login");
       return;
     }
     

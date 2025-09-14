@@ -1,31 +1,37 @@
-/* About Me section container */
+/* Main section */
 .about-me {
-  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 2rem;
-  
   background: linear-gradient(
       to right,
       rgba(58, 123, 213, 0.85),
       rgba(0, 210, 255, 0.85)
     ),
-    url('Images/aboutme.jpg') center/cover no-repeat;
+    url("./Images/aboutme.jpg") center/cover no-repeat;
+  text-align: center;
+  position: relative; /* Needed for return button positioning */
+}
 
-  color: white;
+/* Dark overlay */
+.overlay {
+  background: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  text-align: center;
 }
 
-/* Inner container */
+/* Container */
 .about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 900px;
-  gap: 2rem;
+  padding: 0.5rem 1rem;
+  gap: 0.8rem;
 }
 
 /* Profile image */
@@ -35,7 +41,7 @@
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
-  border: 3px solid rgba(255,255,255,0.3);
+  border: 3px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Text content */
@@ -123,7 +129,29 @@
   text-decoration: underline;
 }
 
-/* Responsive for smaller screens */
+/* Return button */
+.return-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  z-index: 1000;
+}
+
+.return-btn:hover {
+  background: rgba(255, 215, 0, 0.9);
+  color: #000;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
 @media screen and (max-width: 768px) {
   .profile-img {
     width: 180px;

@@ -1,34 +1,69 @@
-/* Page background */
+/* Card page background with image */
 .card-page {
-  background-image: url("Images/products.jpg");
+  background: url("./Images/products.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  padding-bottom: 40px;
 }
 
-/* Card styles */
-.card {
+/* Product card */
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border-radius: 10px;
-  border: none;
+  background: #fff; /* keep cards readable over bg image */
 }
 
-.card:hover {
+.product-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
 }
 
-.card-title {
-  font-size: 1rem;
-  font-weight: bold;
-  min-height: 40px;
-}
-
+/* Product image */
 .card-img-top {
-  height: 250px;
+  height: 200px;
   object-fit: contain;
-  padding: 12px;
+  padding: 15px;
+  background: #fff;
+}
+
+/* Card body text */
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-text {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.stock {
+  font-size: 13px;
+  color: #28a745;
+}
+
+/* Buy button */
+.btn-buy {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-buy:hover {
+  background-color: #0056b3;
+  cursor: pointer;
 }
