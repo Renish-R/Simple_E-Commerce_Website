@@ -1,19 +1,27 @@
-# Simple E-Commerce Website
+# 🛒 Simple E-Commerce Website
 
-A simple e-commerce front-end built as a static website hosted on GitHub Pages.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/renish-r/Simple_E-Commerce_Website/blob/main/LICENSE) 
+[![GitHub stars](https://img.shields.io/github/stars/renish-r/Simple_E-Commerce_Website?style=social)](https://github.com/renish-r/Simple_E-Commerce_Website/stargazers)  
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green)](https://renish-r.github.io/Simple_E-Commerce_Website/)
 
-## Live Demo
-
-[Shopy](https://renish-r.github.io/Simple_E-Commerce_Website/) — view the live site.  
+A **simple e-commerce front-end** built as a static website and hosted on GitHub Pages.
 
 ---
 
-## Table of Contents
+## 🌐 Live Demo
+
+Check it out here: [Shopy Live](https://renish-r.github.io/Simple_E-Commerce_Website/)
+
+![Website Screenshot](https://via.placeholder.com/800x400?text=Website+Screenshot)
+
+---
+
+## 📋 Table of Contents
 
 - [About](#about)  
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
-- [Setup / Installation](#setup-installation)  
+- [Setup / Installation](#setup--installation)  
 - [Usage](#usage)  
 - [Project Structure](#project-structure)  
 - [Contributing](#contributing)  
@@ -21,31 +29,32 @@ A simple e-commerce front-end built as a static website hosted on GitHub Pages.
 
 ---
 
-## About
+## 💡 About
 
-This is a simple e-commerce website built to demonstrate basic frontend capabilities: product listing, shopping cart, UI interactivity, etc. It is a static site hosted via GitHub Pages.
-
----
-
-## Features
-
-- Browse a catalog of products.  
-- Add / remove items to/from cart.  
-- View cart contents and total cost.  
-- Responsive layout (works across different screen sizes).  
-- JavaScript-driven UI interactivity.  
+This is a simple **e-commerce website** built to demonstrate basic frontend capabilities: product listing, shopping cart, UI interactivity, etc.  
+It is a static site hosted via **GitHub Pages**.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-- HTML5 & CSS3  
-- JavaScript (vanilla or libraries)  
-- GitHub Pages for hosting  
+- Browse a catalog of products 🛍️  
+- Add / remove items to/from cart 🛒  
+- View cart contents and total cost 💰  
+- Responsive layout for all screen sizes 📱💻  
+- Interactive UI using JavaScript ⚡  
 
 ---
 
-## Setup / Installation
+## 🛠️ Tech Stack
+
+- **HTML5 & CSS3**  
+- **JavaScript** (vanilla)  
+- **GitHub Pages** for hosting  
+
+---
+
+## ⚙️ Setup / Installation
 
 To run this project locally:
 
