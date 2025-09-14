@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Simple_E-Commerce_Website/static/css/main.dea8e144.css",
+    "main.css": "/Simple_E-Commerce_Website/static/css/main.fe8d50de.css",
     "main.js": "/Simple_E-Commerce_Website/static/js/main.b89c0334.js",
     "static/js/453.c5eaf93b.chunk.js": "/Simple_E-Commerce_Website/static/js/453.c5eaf93b.chunk.js",
     "static/media/aboutme.jpg": "/Simple_E-Commerce_Website/static/media/aboutme.8b2749a97855cd6a8cb0.jpg",
@@ -10,12 +10,12 @@
     "static/media/login.jpeg": "/Simple_E-Commerce_Website/static/media/login.26fdc226170d1f277d70.jpeg",
     "static/media/logo.png": "/Simple_E-Commerce_Website/static/media/logo.84f0cabc82e607c299b3.png",
     "index.html": "/Simple_E-Commerce_Website/index.html",
-    "main.dea8e144.css.map": "/Simple_E-Commerce_Website/static/css/main.dea8e144.css.map",
+    "main.fe8d50de.css.map": "/Simple_E-Commerce_Website/static/css/main.fe8d50de.css.map",
     "main.b89c0334.js.map": "/Simple_E-Commerce_Website/static/js/main.b89c0334.js.map",
     "453.c5eaf93b.chunk.js.map": "/Simple_E-Commerce_Website/static/js/453.c5eaf93b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea8e144.css",
+    "static/css/main.fe8d50de.css",
     "static/js/main.b89c0334.js"
   ]
 }
