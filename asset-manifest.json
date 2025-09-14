@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Simple_E-Commerce_Website/static/css/main.08c96e88.css",
+    "main.js": "/Simple_E-Commerce_Website/static/js/main.e5cb394d.js",
+    "static/js/453.c5eaf93b.chunk.js": "/Simple_E-Commerce_Website/static/js/453.c5eaf93b.chunk.js",
+    "static/media/aboutme.jpg": "/Simple_E-Commerce_Website/static/media/aboutme.8b2749a97855cd6a8cb0.jpg",
+    "static/media/profile.jpg": "/Simple_E-Commerce_Website/static/media/profile.8abb21571eace0c4b85e.jpg",
+    "static/media/Home.jpg": "/Simple_E-Commerce_Website/static/media/Home.789b95e296b20ed4c342.jpg",
+    "static/media/landing.jpg": "/Simple_E-Commerce_Website/static/media/landing.789b95e296b20ed4c342.jpg",
+    "static/media/login.jpeg": "/Simple_E-Commerce_Website/static/media/login.26fdc226170d1f277d70.jpeg",
+    "static/media/logo.png": "/Simple_E-Commerce_Website/static/media/logo.84f0cabc82e607c299b3.png",
+    "index.html": "/Simple_E-Commerce_Website/index.html",
+    "main.08c96e88.css.map": "/Simple_E-Commerce_Website/static/css/main.08c96e88.css.map",
+    "main.e5cb394d.js.map": "/Simple_E-Commerce_Website/static/js/main.e5cb394d.js.map",
+    "453.c5eaf93b.chunk.js.map": "/Simple_E-Commerce_Website/static/js/453.c5eaf93b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08c96e88.css",
+    "static/js/main.e5cb394d.js"
+  ]
+}
