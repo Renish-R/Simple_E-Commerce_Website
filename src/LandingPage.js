@@ -7,7 +7,7 @@ function LandingPage() {
     <div className="landing-page">
       <Wgrid />
       <div className="landing-content">
-        <h1>Welcome to Shop 🎉</h1>
+        <h1>Welcome to Shopy 🎉</h1>
         <p>Login to Continue...!</p>
       </div>
     </div>
