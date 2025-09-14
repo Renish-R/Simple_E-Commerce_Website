@@ -1,18 +1,10 @@
 # 🛒 Simple E-Commerce Website
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/renish-r/Simple_E-Commerce_Website/blob/main/LICENSE) 
-[![GitHub stars](https://img.shields.io/github/stars/renish-r/Simple_E-Commerce_Website?style=social)](https://github.com/renish-r/Simple_E-Commerce_Website/stargazers)  
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green)](https://renish-r.github.io/Simple_E-Commerce_Website/)
-
-A **simple e-commerce front-end** built as a static website and hosted on GitHub Pages.
-
----
+A simple e-commerce front-end built as a static website hosted on **GitHub Pages**.
 
 ## 🌐 Live Demo
 
-Check it out here: [Shopy Live](https://renish-r.github.io/Simple_E-Commerce_Website/)
-
-![Website Screenshot](https://via.placeholder.com/800x400?text=Website+Screenshot)
+[Shopy](https://renish-r.github.io/Simple_E-Commerce_Website/) — view the live site. 🚀  
 
 ---
 
@@ -38,18 +30,18 @@ It is a static site hosted via **GitHub Pages**.
 
 ## ✨ Features
 
-- Browse a catalog of products 🛍️  
-- Add / remove items to/from cart 🛒  
-- View cart contents and total cost 💰  
-- Responsive layout for all screen sizes 📱💻  
-- Interactive UI using JavaScript ⚡  
+- 🛍️ Browse a catalog of products  
+- ➕ Add / remove items to/from cart  
+- 🧾 View cart contents and total cost  
+- 📱 Responsive layout (works across different screen sizes)  
+- ⚡ JavaScript-driven UI interactivity  
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **HTML5 & CSS3**  
-- **JavaScript** (vanilla)  
+- **JavaScript** (vanilla or libraries)  
 - **GitHub Pages** for hosting  
 
 ---
