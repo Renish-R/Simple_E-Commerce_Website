@@ -1,0 +1,89 @@
+/* Fullscreen background applied to wrapper div */
+.register-page {
+  background-image: url("Images/Register.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered form box */
+.register-box {
+  max-width: 500px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(14px);
+  color: #fff;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.register-box:hover {
+  transform: scale(1.02);
+}
+
+.register-box h1 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Inputs */
+.register-box input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 40px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+  font-size: 1.1rem;
+}
+
+.error-message {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0056b3, #0099cc);
+}

@@ -1,0 +1,40 @@
+/* Full-width navbar */
+.custom-navbar {
+  width: 100%;
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  padding: 12px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  color: #ffeb3b !important;
+}
+
+/* Nav links */
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff !important;
+  margin: 0 12px;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffeb3b !important;
+  transform: scale(1.05);
+}
+
+/* Logout special style */
+.logout-link {
+  color: #fff !important;
+  font-weight: bold;
+}

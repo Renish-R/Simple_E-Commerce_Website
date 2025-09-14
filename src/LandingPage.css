@@ -1,0 +1,32 @@
+.landing-page {
+  background-image: url("Images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px 20px;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.6);
+}
+
+.landing-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0rem
+}
+
+.landing-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-left: 7rem;
+}

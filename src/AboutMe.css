@@ -1,0 +1,144 @@
+/* About Me section container */
+.about-me {
+  height: calc(100vh - 60px);
+  width: 100%;
+  padding: 2rem;
+  
+  background: linear-gradient(
+      to right,
+      rgba(58, 123, 213, 0.85),
+      rgba(0, 210, 255, 0.85)
+    ),
+    url('Images/aboutme.jpg') center/cover no-repeat;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Inner container */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  gap: 2rem;
+}
+
+/* Profile image */
+.profile-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+  border: 3px solid rgba(255,255,255,0.3);
+}
+
+/* Text content */
+.about-content h1 {
+  font-size: 2.8rem;
+  margin: 0.5rem 0;
+  color: #fff;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  color: #e0e0e0;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.about-content h2 {
+  font-size: 1.8rem;
+  margin: 1.5rem 0 0.8rem;
+  color: #fff;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* Skills list */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.skills-list li {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
+
+.skills-list li:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* Links */
+.links {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.links a:hover {
+  color: #ffd700;
+  transform: translateY(-2px);
+}
+
+/* Email link */
+.email-link {
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: color 0.2s;
+}
+
+.email-link:hover {
+  color: #ff6b6b;
+  text-decoration: underline;
+}
+
+/* Responsive for smaller screens */
+@media screen and (max-width: 768px) {
+  .profile-img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .about-content h1 {
+    font-size: 2rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+}

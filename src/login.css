@@ -1,0 +1,107 @@
+/* Only login page gets background */
+.login-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("Images/login.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Bigger Login Box */
+.login-box {
+  max-width: 500px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(14px);
+  color: #fff;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.login-box:hover {
+  transform: scale(1.02);
+}
+
+.login-box h2 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Inputs */
+.login-box input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 40px; /* space for eye icon */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+  font-size: 1.1rem;
+}
+
+/* Button */
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0056b3, #0099cc);
+}
+
+/* Register link */
+.register-link {
+  margin-top: 18px;
+  font-size: 1rem;
+}
+
+.register-link span {
+  color: #00bfff;
+  cursor: pointer;
+  text-decoration: underline;
+}
