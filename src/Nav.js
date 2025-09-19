@@ -5,7 +5,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg custom-navbar">
-      <Link className="navbar-brand logo ms-3" to="/">
+      <Link className="navbar-brand logo ms-3" to="/main">
         🛒 Shopy
       </Link>
       
